@@ -19,3 +19,7 @@ variable "project_id" {
   type        = string
 }
 
+variable "sa_id" {
+  description = "Service Account ID"
+  type        = string
+}
