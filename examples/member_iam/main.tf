@@ -16,8 +16,8 @@
 
 resource "google_service_account" "member_iam_test" {
   project      = var.project_id
-  account_id   = "member-iam-test"
-  display_name = "member-iam-test"
+  account_id   = var.sa_id
+  display_name = var.sa_id
 }
 
 module "member_roles" {
